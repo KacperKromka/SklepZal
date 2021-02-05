@@ -1,3 +1,4 @@
 sluchawki;200;20.91
 myszka;2;60
 monitor;20;20
+klawiatura;420;16.99

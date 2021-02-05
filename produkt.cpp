@@ -8,17 +8,17 @@ Produkt::Produkt(string nazwa, int ilosc, double cena)
    if(nazwa.empty())
      Produkt::nazwa = "Nieznany produkt";
    else
-     this->ustawNazwe(nazwa);
+     this->nazwa = nazwa;
 
    if(ilosc < 0)
      Produkt::ilosc = 0;
     else
-     this->ustawIlosc(ilosc);
+     this->ilosc = ilosc;
 
    if(cena < 0)
      Produkt::cena = 0;
    else
-     this->ustawCene(cena);
+     this->cena = cena;
 }
 Produkt::~Produkt()
 {
