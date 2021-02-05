@@ -1,0 +1,59 @@
+# depslib dependency file v1.0
+1612533741 source:c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\produkt.cpp
+	"produkt.h"
+	<string>
+
+1612533867 c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\produkt.h
+	<string>
+
+1612533921 source:c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\listaproduktow.cpp
+	"listaproduktow.h"
+	<string>
+
+1612533867 c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\listaproduktow.h
+	<string>
+	"produkt.h"
+
+1612533951 source:c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\main.cpp
+	<iostream>
+	"manager.h"
+
+1612533977 c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\manager.h
+	"listaproduktow.h"
+	"widok.h"
+	"zapisodczyt.h"
+
+1612534443 c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\widok.h
+	<iostream>
+	"produkt.h"
+	"listaproduktow.h"
+
+1612534115 c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\zapisodczyt.h
+	<cstdio>
+	<iostream>
+	<cstring>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+	"listaproduktow.h"
+
+1612535458 source:c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\manager.cpp
+	"manager.h"
+
+1612534407 source:c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\widok.cpp
+	"widok.h"
+	<iostream>
+
+1612534742 source:c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\zapisodczyt.cpp
+	"zapisodczyt.h"
+	"produkt.h"
+	<cstdio>
+	<iostream>
+	<cstring>
+	<string>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<fstream>
+
