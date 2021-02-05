@@ -16,7 +16,7 @@ ManagerListyProduktow::~ManagerListyProduktow()
 }
 void ManagerListyProduktow::pokazMenu()
 {
-    cout << "\n\nDostepne operacje:\n 1. Pokaz produkty\n 2. Dodaj produkt";
+    cout << "\n\nDostepne operacje:\n 1. Pokaz produkty\n 2. Dodaj produkt\n 3. Edytuj produkt \n";
     cout << "\n0. Koniec";
     cout << endl << ">> ";
 }
@@ -42,6 +42,26 @@ void ManagerListyProduktow::dodajProdukt()
     else
         cout << "Blad!";
 }
+void ManagerListyProduktow::edytujProdukt()
+{
+    int nrProduktu;
+    char odp;
+
+    cout << "Podaj numer produktu ktory chcesz edytowac (od 0 do " << lista.podajLiczbeProduktow()-1 << "): ";
+    cin >> nrProduktu;
+    cout << "Czy ten produkt chcesz edytowac?";
+    Produkt * produkt = lista.pobierzProdukt(nrProduktu);
+    wp.pokazProdukt(produkt);
+    cout << "(t/n)";
+    cin >> odp;
+    if (odp == 't')
+    {
+        lista.usunProdukt(nrProduktu);
+        this->dodajProdukt();
+    }
+
+
+}
 void ManagerListyProduktow::zarzadzaj()
 {
     const int KONIEC = 0;
@@ -57,7 +77,7 @@ void ManagerListyProduktow::zarzadzaj()
                     break;
             case 2: dodajProdukt();
                     break;
-            case 3:
+            case 3: edytujProdukt();
                     break;
         }
     }

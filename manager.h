@@ -14,11 +14,13 @@ public:
     void pokazListeProduktow();
     void dodajProdukt();
     void zarzadzaj();
+    void edytujProdukt();
 
 private:
     ListaProduktow lista;
     WidokListyProduktow widok;
     ZapisOdczytIOStream zapisOdczyt;
+    WidokProduktu wp;
 };
 
 

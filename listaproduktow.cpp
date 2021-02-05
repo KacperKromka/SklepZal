@@ -19,6 +19,12 @@ bool ListaProduktow::dopiszProdukt(string nazwa, int ilosc, double cena)
     return dodajDoListy(new Produkt(nazwa,ilosc,cena));
 }
 
+bool ListaProduktow::usunProdukt(int nrProduktu)
+{
+    delete produkty[nrProduktu--];
+    liczbaProduktow--;
+}
+
 bool ListaProduktow::dopiszProdukt(Produkt * produkt)
 {
     return dodajDoListy(produkt);

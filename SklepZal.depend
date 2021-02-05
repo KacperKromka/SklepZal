@@ -1,16 +1,16 @@
 # depslib dependency file v1.0
-1612533741 source:c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\produkt.cpp
+1612537269 source:c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\produkt.cpp
 	"produkt.h"
 	<string>
 
 1612533867 c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\produkt.h
 	<string>
 
-1612535960 source:c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\listaproduktow.cpp
+1612562345 source:c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\listaproduktow.cpp
 	"listaproduktow.h"
 	<string>
 
-1612533867 c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\listaproduktow.h
+1612561210 c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\listaproduktow.h
 	<string>
 	"produkt.h"
 
@@ -18,7 +18,7 @@
 	<iostream>
 	"manager.h"
 
-1612533977 c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\manager.h
+1612560879 c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\manager.h
 	"listaproduktow.h"
 	"widok.h"
 	"zapisodczyt.h"
@@ -37,7 +37,7 @@
 	<stdlib.h>
 	"listaproduktow.h"
 
-1612535458 source:c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\manager.cpp
+1612562033 source:c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\manager.cpp
 	"manager.h"
 
 1612534407 source:c:\users\kacpe\onedrive\dokumenty\c++\sklepzal\widok.cpp

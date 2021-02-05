@@ -11,6 +11,7 @@ public:
     ~ListaProduktow();
     bool dopiszProdukt(std::string nazwa, int ilosc, double cena);
     bool dopiszProdukt(Produkt * produkt);
+    bool usunProdukt(int nrProduktu);
     Produkt * pobierzProdukt(int nrProduktu);
     int podajLiczbeProduktow();
 private:
