@@ -15,7 +15,7 @@ public:
     void dodajProdukt();
     void zarzadzaj();
     void edytujProdukt();
-
+    void usunProdukt();
 private:
     ListaProduktow lista;
     WidokListyProduktow widok;
