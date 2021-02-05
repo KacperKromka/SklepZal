@@ -32,6 +32,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename=".gitignore" />
 		<Unit filename="SklepZal.cbp" />
 		<Unit filename="listaproduktow.cpp" />
 		<Unit filename="listaproduktow.h" />
